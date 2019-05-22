@@ -1,1 +1,2 @@
 *.gz filter=lfs diff=lfs merge=lfs -text
+install-files/usr/share/lliurex-openmeetings/apache-openmeetings-3.0.7.tar.gz filter=lfs diff=lfs merge=lfs -text
