@@ -1,0 +1,16 @@
+Source: lliurex-openmeetings-data
+Section: admin
+Priority: optional
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Uploaders: Juanma Navarro Máñez <juamnma1980@gmail.com>, Raul Rodrigo Segura <lliurex_devel3@edu.gva.es>, Enrique Medina Gremaldos <lliurex_devel4@edu.gva.es>, David Montalva Furio <montalva_dav@gva.es>, Hector Garcia Huerta <lliurex_devel1@edu.gva.es>
+Build-Depends: debhelper (>= 9.0)
+Standards-Version: 4.9.5
+
+Package: lliurex-openmeetings-data
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: lliurex-openmeetings (<< 0.3)
+Breaks: lliurex-openmeetings (<< 0.3)
+Description: Lliurex Openmeetings Data
+ This package contains OpenMeetings targz project
+
